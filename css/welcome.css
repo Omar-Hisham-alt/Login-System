@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+}
+
+.nav-style {
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.home {
+    min-height: 100vh;
+    background-color: #24353F;
+}
+
+.home .welcome {
+    width: 55%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    padding: 3rem;
+}
+
+.home .welcome h1 {
+    text-align: center;
+    color: #17a2b8;
+}

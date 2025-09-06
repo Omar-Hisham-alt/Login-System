@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="../images/signup.png" type="image/x-icon">
+    <title>Sign Up</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!-- bootstrap style -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- main style -->
+    <link rel="stylesheet" href="../css/signup.css">
+    <!-- media query -->
+    <link rel="stylesheet" href="../css/media.css">
+</head>
+
+<body>
+
+    <div class="home py-5">
+        <div class="container">
+            <div class="sign-up mx-auto p-5">
+                <h1>Smart Login System</h1>
+                <input class="form-control my-3" type="text" name="User Name" id="name" placeholder="Enter your name">
+                <input class="form-control my-3" type="email" name="User Email" id="email"
+                    placeholder="Enter your email">
+                <input class="form-control my-3" type="password" name="User Password" id="password"
+                    placeholder="Enter  password">
+                <p id="requiredMsg" class="text-center text-danger d-none">All inputs is required</p>
+                <p id="successMsg" class="text-center text-success d-none">Success</p>
+                <p id="emailMsg" class="text-center text-danger d-none">email already exists</p>
+                <button id="sign-up" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+                <p class="text-center text-white">You have an account? <a class="text-white"
+                        href="index.html">Signin</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- bootstrap js -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <!-- main js -->
+    <script src="../js/signup.js"></script>
+</body>
+
+</html>

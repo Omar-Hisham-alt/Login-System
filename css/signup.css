@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+}
+
+.home {
+    background-color: #24353F;
+    min-height: 100vh;
+}
+
+.home .sign-up {
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 74%;
+}
+
+.home .sign-up h1 {
+    text-align: center;
+    color: #17a2b8;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.home .sign-up input {
+    background-color: transparent !important;
+    color: #fff;
+    border-radius: .25rem;
+}
+
+.home .sign-up input:focus {
+    box-shadow: none;
+}
+
+.home .sign-up input::placeholder {
+        color: #B6B6B6;
+        opacity: 1;
+    }
+
+.home .sign-up p a {
+    text-decoration: none;
+}
+
+.home .sign-up p a:hover {
+    text-decoration: underline;
+}
