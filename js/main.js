@@ -43,8 +43,7 @@ function login() {
                 document.getElementById('requiredMsg').classList.add('d-none');
                 welcomeMsg = userName;
                 sessionStorage.setItem('User Name', welcomeMsg);
-                console.log('omar');
-                window.location.href = '../html/welcome.html'
+                window.location.href = 'html/welcome.html'
             }
             else {
                 document.getElementById('incorrectMsg').classList.remove('d-none');
