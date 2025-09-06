@@ -41,7 +41,7 @@ function signUp() {
                 document.getElementById('emailMsg').classList.add('d-none');
                 document.getElementById('successMsg').classList.remove('d-none');
                 setTimeout(() => {
-                    window.location.href = 'index.html';
+                    window.location.href = '../index.html';
                 }, 500);
             }
         }
